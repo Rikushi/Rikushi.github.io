@@ -8,12 +8,7 @@ body {
 }
 
 /* LINKS BASIC */
-a {
-	color: #666666;
-}
-a:hover {
-	color: ;
-}
+
 a, a:hover, a:active {
 	text-decoration: none;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -22,13 +17,10 @@ a, a:hover, a:active {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-a:focus {
-    outline: none !important;
-    border: none !important;
-}
+
 
 /* LIST BASIC */
-ul, menu, dir, dl, dd {
+ul {
 	margin: 0px;
 	padding: 0px;
 	-webkit-margin-before: 0px;
@@ -293,7 +285,7 @@ main .banner {
     overflow: hidden;
     position: relative;
     height: calc(100vh - 260px);
-    background: url('./pic/bg.jpg');
+    background: url('../pic/bg.jpg');
     background-size: cover;
     background-position: top center;
     box-shadow: inset 0px 0px 0px 2000px rgba(0,0,0,0.4);

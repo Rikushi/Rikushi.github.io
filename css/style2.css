@@ -1,0 +1,29 @@
+
+.btn {
+	border: 1px solid #ff9f39;
+	padding: 10px 25px;
+	color: #ff9f39;
+	text-decoration: none;
+	border-radius: 15px;
+	transition: all 0.15s;
+	margin-left: 20px;
+}
+.button {
+	margin-top: 30px;
+ 
+}
+.button2:hover {
+	background-color: #ff9f39;
+	color: white;
+
+}
+.button1:hover {
+	background-color: #ff9f39;
+	color: white;
+}
+
+/** CONTEXT **/
+
+.context {
+	padding-top: 50px
+}
