@@ -119,4 +119,33 @@ main .banner .banner-info a.fa {
     letter-spacing: 1px; 
 
 }
+/** 3 column **/
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    background-color: #99ccff;
+    border-radius: 50px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 
+}
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+/** footer **/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+}

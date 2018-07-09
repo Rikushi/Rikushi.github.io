@@ -1,8 +1,8 @@
 
 .btn {
-	border: 1px solid #ff9f39;
+	border: 1px solid #0066cc;
 	padding: 10px 25px;
-	color: #ff9f39;
+	color: #0066cc;
 	text-decoration: none;
 	border-radius: 15px;
 	transition: all 0.15s;
@@ -13,12 +13,12 @@
  
 }
 .button2:hover {
-	background-color: #ff9f39;
+	background-color: #0066cc;
 	color: white;
 
 }
 .button1:hover {
-	background-color: #ff9f39;
+	background-color: #0066cc;
 	color: white;
 }
 
