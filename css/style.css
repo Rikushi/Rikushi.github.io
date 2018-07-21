@@ -49,8 +49,8 @@ ul li {
     cursor: pointer;
     transform: rotateY(-30deg) rotateX(10deg);
     position: absolute;
-    border-bottom: 14px solid rgb(0,0,.2);
-
+    border-bottom: 4px solid rgb(0,0,0,.2);
+    mix-blend-mode: multiply;
 }
 ul a {
     text-decoration: none;
@@ -58,15 +58,25 @@ ul a {
 }
 ul li:nth-child(1){
     background-color: #35cf00;
-    top: -105px;
+    top: -120px;
     z-index: 2;
 }
 ul li:nth-child(2){
     background-color: #00a0cf;
+    top: -20px;
     z-index: 1;
 }
 ul li:nth-child(3){
     background-color: #9a00cf;
-    top: 105px;
+    top: 80px;
 
+}
+ul li:nth-child(4){
+    background-color: #d40033;
+    top: 180px;
+}
+/** Animation Part **/
+ul li:hover {
+    transform: rotateY(0deg) rotateX(0deg) scale(1.4);
+    transition: transform .4 ease-out;
 }
