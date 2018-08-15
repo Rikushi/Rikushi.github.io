@@ -1,0 +1,59 @@
+header {
+    position: fixed;
+    top: 0;
+    margin: 0 auto;
+    width: 100%;
+    background-color: transparent;
+  
+}
+header h1 {
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+    font-family: 'Trebuchet MS', fantasy;
+    text-transform: uppercase;
+    text-shadow: -3px 3px 3px #aaa;
+}
+nav {
+   float: right; 
+}
+   
+ul {
+    overflow: auto;
+    list-style-type: none;
+}
+   
+li {
+    float: left;
+    margin: 15px;
+    margin-right: 2.5em;
+}
+   
+li a {
+    text-decoration: none;
+    color: #ccc;
+    font: 25px/1 Helvetica, Verdana, sans-serif;
+    text-transform: uppercase;
+   
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+   
+li a:hover {
+    color: #666;
+    border: 1px solid #6c6c6c;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+   
+li.active a {
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(000, 000, 000, 0.5);
+    padding: 5px;
+    border-radius: 15px;
+}
