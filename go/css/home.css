@@ -8,9 +8,7 @@ header {
   margin: 0 auto;
   width: 100%;
   background-color: #fff;
-
 }
-
 header h1 {
   float: left;
   margin: 15px;
@@ -72,9 +70,6 @@ li.active a {
   background-size: cover;
   display: table;
   background-attachment: fixed;
-}
-audio {
-  text-align: center;
 }
 
 /* Content */
