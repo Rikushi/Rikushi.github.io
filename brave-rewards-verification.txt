@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: rikushi.github.io
+Token: 6674641df276bb678e1d82f4fd287cb1f621240dbcfea297d2a105f564e9b741
